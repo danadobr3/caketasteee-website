@@ -1,0 +1,161 @@
+:root {
+    --acent: #e8a500;
+    --button: #918cda;
+    --bckgr: #F4F4FD;
+    --bckgr-brigth: #7b4e11;
+    --text: #1e1030;
+    --text-contact: #2a2636;
+    --white: #FFFFFF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--white);
+}
+
+ul {
+    list-style: none;
+}
+
+/* Logo */
+
+.acent {
+    color: var(--acent);
+}
+
+.acent-f {
+    color: white;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--text);
+}
+
+.text-nav {
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ color: var(--text);
+
+}
+
+.link {
+    letter-spacing: 0.04em;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: var(--acent);
+}
+/* Contact */
+
+.contact{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-contact);
+}
+/* Main */
+.bckgr-bright {
+    background-color: var(--bckgr-brigth);
+    width: 1400px;
+    height: 600px;
+}
+
+.intro-text {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.btn {
+    background-color: var(--acent);
+    color: var(--white);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.text-title {
+    color: var(--text);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+}
+
+.text-par {
+    color: var(--text-contact);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+/* .cards {
+    background-color: var(--bckgr);
+    width: 264px;
+    height: 338px;
+} */
+
+footer {
+    background-color: var(--bckgr-brigth);
+}
+
+.fotter-text {
+    color: var(--white);
+}
+
+.contact-footer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--white);
+}
+
+/* #e23333
+#a7740f
+#dab95c
+#857400
+#c35300
+#974e09
+#e24e31
+#e26433
+#e27931
+#e18c34
+#fda36a
+#ff96a3 
+#ea697b
+#ddc663
+#f6cb65 
+#fdbd6c
+#d9793d
+#d074b7
+#918cda
+#e8a500
+#B7B7B7
+#523e0d
+#e9ee4f
+#96a2bb
+#805743
+#801F02
+#7b4e11
+#1e1030
+#d7df26
+#2a2636
+*/
