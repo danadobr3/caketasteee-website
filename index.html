@@ -29,16 +29,18 @@
               <span class="acent">cake</span>tasteee
               <img
                 class="logo-icon"
-                src="./images/cake.svg"
+                src="./images/nav/cake.svg"
                 alt="caketasteee logo"
                 width="24"
                 height="24"
               />
             </a>
             <ul class="list-nav">
-              <li class="header-item"><a href="" class="text-nav link">Home</a></li>
+              <li class="header-item"><a href="./index.html" class="text-nav link">Home</a></li>
               <li class="header-item"><a href="" class="text-nav link">Cakes</a></li>
-              <li class="header-item"><a href="" class="text-nav link">Sweet nuts</a></li>
+              <li class="header-item">
+                <a href="./nuts.html" class="text-nav link">Sweet nuts</a>
+              </li>
               <li class="header-item"><a href="" class="text-nav link">Contact</a></li>
             </ul>
           </nav>
@@ -50,7 +52,7 @@
                 target="_blank"
                 rel="noopener noroferre"
               >
-                <img src="./images/instagram.svg" alt="instagram logo" width="24" height="24" />
+                <img src="./images/nav/instagram.svg" alt="instagram logo" width="24" height="24" />
               </a>
             </li>
             <li>
@@ -59,7 +61,7 @@
                 target="_blank"
                 rel="noopener noroferre"
               >
-                <img src="./images/facebookk.svg" alt="facebook logo" width="22" height="22" />
+                <img src="./images/nav/facebook.svg" alt="facebook logo" width="22" height="22" />
               </a>
             </li>
           </ul>
@@ -81,7 +83,6 @@
               Welcome to our world of sweet masterpieces! We create unique cakes and delicious nuts
               that will give you real pleasure!
             </h1>
-            <!-- <h2></h2> -->
             <button class="btn" type="button">Order</button>
           </div>
         </section>
@@ -90,21 +91,29 @@
           <div class="container">
             <h2 class="text-title">Why choose us?</h2>
             <ul class="list-main-encourage">
-              <li class="cards">
-                <img src="./images/natural_ingredients.svg" alt="natural ingredients" />
-                <p class="text-par">Only natural ingredients</p>
+              <li>
+                <img
+                  class="enc-img"
+                  src="./images/enc-section/natural_ingredients.svg"
+                  alt="natural ingredients"
+                />
+                <p class="text-par encourage-item">Only natural ingredients</p>
               </li>
-              <li class="cards">
-                <img src="./images/natural_ingredients.svg" alt="selection of flavors" />
-                <p class="text-par">A large selection of flavors</p>
+              <li>
+                <img
+                  class="enc-img"
+                  src="./images/enc-section/natural_ingredients.svg"
+                  alt="selection of flavors"
+                />
+                <p class="text-par encourage-item">A large selection of flavors</p>
               </li>
-              <li class="cards">
-                <img src="./images/quality.svg" alt="quality" />
-                <p class="text-par">Quality guarantee</p>
+              <li>
+                <img class="enc-img" src="./images/enc-section/quality.svg" alt="quality" />
+                <p class="text-par encourage-item">Quality guarantee</p>
               </li>
-              <li class="cards">
-                <img src="./images/clients1.svg" alt="clients" />
-                <p class="text-par">Individual approach to each client</p>
+              <li>
+                <img class="enc-img" src="./images/enc-section/clients1.svg" alt="clients" />
+                <p class="text-par encourage-item">Individual approach to each client</p>
               </li>
             </ul>
           </div>
@@ -113,18 +122,42 @@
         <section class="main-section bck-bst-sellers">
           <div class="container">
             <h2 class="text-title">Bestsellers</h2>
-            <ul>
-              <li class="cards">
-                <img src="./images/napoleon.jpeg" alt="cake1" width="264" height="260" />
-                <p class="text-par">Napoleon</p>
+            <ul class="list-main-items list-card-set">
+              <li class="items cards-bst">
+                <img
+                  class="item-bst"
+                  src="./images/cake-type/napoleon.jpg"
+                  alt="napoleon"
+                  width="340"
+                  height="360"
+                />
+                <div class="card-style-bst">
+                  <p class="text-par-ac">Napoleon</p>
+                </div>
               </li>
-              <li class="cards">
-                <img src="./images/black_cake.jpeg" alt="cake2" width="264" height="260" />
-                <p class="text-par">Coffee cake</p>
+              <li class="items cards-bst">
+                <img
+                  class="item-bst"
+                  src="./images/cake-type/currant-cake.jpg"
+                  alt="currant cake"
+                  width="340"
+                  height="360"
+                />
+                <div class="card-style-bst">
+                  <p class="text-par-ac">Currant cake</p>
+                </div>
               </li>
-              <li class="cards">
-                <img src="./images/carmel_cake.jpeg" alt="cake3" width="264" height="260" />
-                <p class="text-par">Snickers</p>
+              <li class="items cards-bst">
+                <img
+                  class="item-bst"
+                  src="./images/cake-type/carmel_cake.jpeg"
+                  alt="snickers"
+                  width="340"
+                  height="360"
+                />
+                <div class="card-style-bst">
+                  <p class="text-par-ac">Snickers</p>
+                </div>
               </li>
             </ul>
           </div>
@@ -132,27 +165,73 @@
 
         <section class="main-section">
           <div class="container">
-            <h2 class="text-title">Creams</h2>
-            <ul>
-              <li>
+            <!-- <h2 class="text-title">Creams</h2>
+            <ul class="list-main-creams list-card-set">
+              <li class="item-creams cards">
                 <img src="./images/creamy-cream.jpeg" alt="creamy" width="264" height="260" />
-                <p class="text-par">Creamy</p>
+                <div class="card-style">
+                  <p class="text-par center">Creamy</p>
+                </div>
               </li>
-              <li>
+              <li class="item-creams cards">
                 <img src="./images/coffee-cream.jpg" alt="coffee" width="264" height="260" />
-                <p class="text-par">Coffee</p>
+                <div class="card-style">
+                  <p class="text-par center">Coffee</p>
+                </div>
               </li>
-              <li>
+              <li class="item-creams cards">
                 <img src="./images/choc-cream.jpg" alt="chocolate" width="264" height="260" />
-                <p class="text-par">Chocolate</p>
+                <div class="card-style">
+                  <p class="text-par center">Chocolate</p>
+                </div>
               </li>
-              <li>
+              <li class="item-creams cards">
                 <img src="./images/cream-cheese.jpg" alt="cream cheese" width="264" height="260" />
-                <p class="text-par">Cream cheese</p>
+                <div class="card-style">
+                  <p class="text-par center">Cream cheese</p>
+                </div>
               </li>
-              <li>
+              <li class="item-creams cards">
                 <img src="./images/sour-cream.jpg" alt="sour cream" width="264" height="260" />
-                <p class="text-par">Sour cream</p>
+                <div class="card-style">
+                  <p class="text-par center">Sour cream</p>
+                </div>
+              </li>
+            </ul> -->
+            <h2 class="text-title">Type of cakes</h2>
+            <ul class="list-main-items list-card-set">
+              <li class="cards">
+                <img
+                  src="./images/cake-type/spartak.jpg"
+                  alt="layer cakes"
+                  width="340"
+                  height="360"
+                />
+                <div class="card-style">
+                  <p class="text-par center">Layer cakes</p>
+                </div>
+              </li>
+              <li class="cards">
+                <img
+                  src="./images/cake-type/black-cake.jpeg"
+                  alt="sponge cakes"
+                  width="340"
+                  height="360"
+                />
+                <div class="card-style">
+                  <p class="text-par center">Sponge cakes</p>
+                </div>
+              </li>
+              <li class="cards">
+                <img
+                  src="./images/cake-type/meringue-desserts.jpg"
+                  alt="meringue cakes and desserts"
+                  width="340"
+                  height="360"
+                />
+                <div class="card-style">
+                  <p class="text-par center">Meringue cakes and desserts</p>
+                </div>
               </li>
             </ul>
           </div>
@@ -160,15 +239,21 @@
       </main>
       <footer>
         <div class="container">
-          <a href="./index.html" class="logo link">
+          <a href="./index.html" class="logo-f link">
             <span class="acent-f">cake</span>tasteee
-            <!-- <img src="./images/cake.svg" alt="caketasteee logo" width="20" height="20" /> -->
+            <img
+              class="logo-icon"
+              src="./images/nav/cake.svg"
+              alt="caketasteee logo"
+              width="20"
+              height="20"
+            />
           </a>
           <p class="fotter-text text-par">
             Order your perfect cake or sweet nuts and share sweet moments of joy with your loved
             ones!
           </p>
-          <ul>
+          <!-- <ul>
             <li>
               <a
                 href="https://www.instagram.com/caketasteee?igsh=cWQ0NDM4dHQwM2lp"
@@ -187,7 +272,7 @@
                 <img src="./images/facebookk.svg" alt="facebook logo" width="24" height="24" />
               </a>
             </li>
-          </ul>
+          </ul> -->
           <address>
             <ul>
               <li>
@@ -195,7 +280,9 @@
                   >danadobr3@gmail.com</a
                 >
               </li>
-              <li><a class="contact-footer link" href="tel:+48796281791">+48 796 281 791</a></li>
+              <li>
+                <a class="contact-footer link" href="tel:+48796281791">+48 796 281 791</a>
+              </li>
             </ul>
           </address>
         </div>
