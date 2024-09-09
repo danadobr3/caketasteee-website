@@ -193,6 +193,7 @@ img {
 .btn:hover,
 .btn:focus {
     color: var(--bkr-txt-dark);
+    background-color: #dec451df;
 }
 .text-title {
     color: var(--bkr-txt-dark);
@@ -228,13 +229,29 @@ img {
     justify-content: space-between;
 }
 
-/* .enc-img {
+.pouring {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    border-radius: 8px;
     margin-bottom: 8px;
-} */
-
-.encourage-item {
     width: 176px;
+    /* background-color: transparent;
+    border: 2px solid var(--bkr-txt-dark); */
 }
+
+.enc-img {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+/* .encourage-item {
+    --items: 4;
+    --ident-vertical: 24px;
+
+} */
 
 /* Best sellers */
 
