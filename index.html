@@ -52,7 +52,10 @@
                 target="_blank"
                 rel="noopener noroferre"
               >
-                <img src="./images/nav/instagram.svg" alt="instagram logo" width="24" height="24" />
+                <!-- <img src="./images/nav/instagram.svg" alt="instagram logo" width="24" height="24" /> -->
+                <svg class="netw-icons" width="24" height="24">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
               </a>
             </li>
             <li>
@@ -61,7 +64,10 @@
                 target="_blank"
                 rel="noopener noroferre"
               >
-                <img src="./images/nav/facebook.svg" alt="facebook logo" width="22" height="22" />
+                <!-- <img src="./images/nav/facebook.svg" alt="facebook logo" width="22" height="22" /> -->
+                <svg class="netw-icons" width="24" height="24">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
               </a>
             </li>
           </ul>
@@ -79,11 +85,13 @@
       <main>
         <section class="bckgr-bright">
           <div class="container">
-            <h1 class="intro-text">
-              Welcome to our world of sweet masterpieces! We create unique cakes and delicious nuts
-              that will give you real pleasure!
-            </h1>
-            <button class="btn" type="button">Order</button>
+            <div class="right-column">
+              <h1 class="intro-text">Welcome to our world of sweet masterpieces!</h1>
+              <h3 class="intro-text-add">
+                We create unique cakes and delicious nuts that will give you real pleasure!
+              </h3>
+              <button class="btn" type="button">Order</button>
+            </div>
           </div>
         </section>
 
@@ -92,36 +100,56 @@
             <h2 class="text-title">Why choose us?</h2>
             <ul class="list-main-encourage list-main-items list-card-set">
               <li>
-                <div class="pouring">
-                  <img
-                    class="enc-img"
-                    src="./images/enc-section/hand-heart.svg"
-                    alt="natural ingredients"
-                  />
+                <div class="cont-img">
+                  <div class="pouring">
+                    <!-- <img
+                      class="enc-img"
+                      src="./images/enc-section/hand-heart.svg"
+                      alt="natural ingredients"
+                    /> -->
+                    <svg class="netw-icons" width="64" height="64">
+                      <use href="./images/icons.svg#hand-heart"></use>
+                    </svg>
+                  </div>
+                  <p class="text-par-enc encourage-item">Only natural ingredients</p>
                 </div>
-                <p class="text-par encourage-item">Only natural ingredients</p>
               </li>
               <li>
-                <div class="pouring">
-                  <img
-                    class="enc-img"
-                    src="./images/enc-section/fork-and-spoon.svg"
-                    alt="selection of flavors"
-                  />
+                <div class="cont-img">
+                  <div class="pouring">
+                    <!-- <img
+                      class="enc-img"
+                      src="./images/enc-section/fork-and-spoon.svg"
+                      alt="selection of flavors"
+                    /> -->
+                    <svg class="netw-icons" width="64" height="64">
+                      <use href="./images/icons.svg#fork-and-spoon"></use>
+                    </svg>
+                  </div>
+                  <p class="text-par-enc encourage-item">A large selection of flavors</p>
                 </div>
-                <p class="text-par encourage-item">A large selection of flavors</p>
               </li>
               <li>
-                <div class="pouring">
-                  <img class="enc-img" src="./images/enc-section/medal.svg" alt="quality" />
+                <div class="cont-img">
+                  <div class="pouring">
+                    <!-- <img class="enc-img" src="./images/enc-section/medal.svg" alt="quality" /> -->
+                    <svg class="netw-icons" width="64" height="64">
+                      <use href="./images/icons.svg#medal"></use>
+                    </svg>
+                  </div>
+                  <p class="text-par-enc encourage-item">Quality guarantee</p>
                 </div>
-                <p class="text-par encourage-item">Quality guarantee</p>
               </li>
               <li>
-                <div class="pouring">
-                  <img class="enc-img" src="./images/enc-section/clients1.svg" alt="clients" />
+                <div class="cont-img">
+                  <div class="pouring">
+                    <!-- <img class="enc-img" src="./images/enc-section/clients1.svg" alt="clients" /> -->
+                    <svg class="netw-icons" width="64" height="64">
+                      <use href="./images/icons.svg#clients1"></use>
+                    </svg>
+                  </div>
+                  <p class="text-par-enc encourage-item">Individual approach to each client</p>
                 </div>
-                <p class="text-par encourage-item">Individual approach to each client</p>
               </li>
             </ul>
           </div>
@@ -246,53 +274,63 @@
         </section>
       </main>
       <footer>
-        <div class="container">
-          <a href="./index.html" class="logo-f link">
-            <span class="acent-f">cake</span>tasteee
-            <img
-              class="logo-icon"
-              src="./images/nav/cake.svg"
-              alt="caketasteee logo"
-              width="20"
-              height="20"
-            />
-          </a>
-          <p class="fotter-text text-par">
+        <div class="additional container">
+          <div class="logo-netw">
+            <a href="./index.html" class="logo-f link">
+              <span class="acent-f">cake</span>tasteee
+              <img
+                class="logo-icon"
+                src="./images/nav/cake.svg"
+                alt="caketasteee logo"
+                width="20"
+                height="20"
+              />
+            </a>
+            <ul class="networks list-nav">
+              <li class="netw-item">
+                <a
+                  class="netw-link"
+                  href="https://www.instagram.com/caketasteee?igsh=cWQ0NDM4dHQwM2lp"
+                  target="_blank"
+                  rel="noopener noroferre"
+                >
+                  <svg class="netw-icons-footer" width="24" height="24">
+                    <use href="./images/icons.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="netw-item">
+                <a
+                  class="netw-link"
+                  href="https://www.facebook.com/share/WaKNaoW4VrrkZiKW/?mibextid=LQQJ4d"
+                  target="_blank"
+                  rel="noopener noroferre"
+                >
+                  <svg class="netw-icons-footer" width="24" height="24">
+                    <use href="./images/icons.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <p class="fotter-text">
             Order your perfect cake or sweet nuts and share sweet moments of joy with your loved
             ones!
           </p>
-          <!-- <ul>
-            <li>
-              <a
-                href="https://www.instagram.com/caketasteee?igsh=cWQ0NDM4dHQwM2lp"
-                target="_blank"
-                rel="noopener noroferre"
-              >
-                <img src="./images/instagram.svg" alt="instagram logo" width="24" height="24" />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.facebook.com/share/WaKNaoW4VrrkZiKW/?mibextid=LQQJ4d"
-                target="_blank"
-                rel="noopener noroferre"
-              >
-                <img src="./images/facebookk.svg" alt="facebook logo" width="24" height="24" />
-              </a>
-            </li>
-          </ul> -->
-          <address>
-            <ul>
-              <li>
-                <a class="contact-footer link" href="mailto:danadobr3@gmail.com"
-                  >danadobr3@gmail.com</a
-                >
-              </li>
-              <li>
-                <a class="contact-footer link" href="tel:+48796281791">+48 796 281 791</a>
-              </li>
-            </ul>
-          </address>
+          <div>
+            <address>
+              <ul>
+                <li>
+                  <a class="contact-footer link" href="mailto:danadobr3@gmail.com"
+                    >danadobr3@gmail.com</a
+                  >
+                </li>
+                <li>
+                  <a class="contact-footer link" href="tel:+48796281791">+48 796 281 791</a>
+                </li>
+              </ul>
+            </address>
+          </div>
         </div>
       </footer>
     </div>

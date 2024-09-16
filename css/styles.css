@@ -145,6 +145,15 @@ img {
     color: var(--acent);
 }
 
+.netw-icons {
+    fill: var(--bkr-txt-dark);
+    /* stroke: var(--bkr-txt-dark); */
+}
+
+.netw-icons:hover,
+.netw-icons:focus {
+    fill: var(--acent);
+}
 /* Contact */
 
 /* .contact{
@@ -158,10 +167,21 @@ img {
 /* Main */
 
 .bckgr-bright {
+    max-width: 1440px;
+    margin: 0 auto;
     background-color: var(--bkr-txt-dark);
-    padding-top: 188px;
-    padding-bottom: 188px;
-    /* margin-bottom: 72px; */
+    background-image: url(/images/enc-section/cake-bckgr.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 92px;
+    padding-bottom: 92px;
+}
+
+.right-column {
+    
+    margin-left: 700px;
+
 }
 
 .intro-text {
@@ -170,11 +190,21 @@ img {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    margin-bottom: 48px;
-    /* width: 496px; */
-    text-align: center;
+    margin-bottom: 24px;
+    text-align: justify;
+    
 }
 
+.intro-text-add {
+    color: var(--bckr-txt-light);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    margin-bottom: 64px;
+    text-align: justify;
+
+}
 .btn {
     font-family: inherit;
     background-color: var(--acent);
@@ -187,6 +217,9 @@ img {
     padding: 16px 32px;
     text-align: center;
     margin: 0 auto;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 1px solid var(--acent);
     display: block;
 }
 
@@ -245,6 +278,21 @@ img {
     display: flex;
     justify-content: center;
     gap: 24px;
+}
+
+.cont-img {
+    text-align: center;
+    width: 176px;
+}
+
+.text-par-enc {
+    color: var(--text-par2);
+    /* color: var(--grey); */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 /* .encourage-item {
@@ -381,6 +429,8 @@ footer {
     letter-spacing: 0.02em;
     text-align: left;
     display: inline-block;
+    max-width: 362px;
+    margin-right: 120px;
 }
 
 .contact-footer {
@@ -389,6 +439,41 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--white);
+}
+
+.netw-icons-footer {
+    fill: var(--bckr-txt-light);
+}
+
+.netw-item {
+    /* width: 40px;
+    height: 40px;
+    border-radius: 50%; */
+    margin-top: 8px;
+}
+
+.netw-link {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--acent);
+}
+
+.netw-link:hover,
+.netw-link:focus {
+    background-color: #dec451df;
+}
+
+.logo-netw {
+    /* margin-right: 120px; */
+}
+
+.additional {
+    display: flex;
+    align-items: baseline;
 }
 
 /* #e23333
