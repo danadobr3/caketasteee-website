@@ -170,7 +170,7 @@ img {
     max-width: 1440px;
     margin: 0 auto;
     background-color: var(--bkr-txt-dark);
-    background-image: url(/images/enc-section/cake-bckgr.jpg);
+    background-image: url(../images/enc-section/cake-bckgr.jpg);
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
