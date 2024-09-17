@@ -76,6 +76,10 @@ img {
     outline-offset: -2px;
 }
 
+.link {
+    text-decoration: none;
+}
+
 /* Logo */
 
 .acent {
@@ -154,15 +158,7 @@ img {
 .netw-icons:focus {
     fill: var(--acent);
 }
-/* Contact */
 
-/* .contact{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--text-contact);
-} */
 
 /* Main */
 
@@ -221,12 +217,14 @@ img {
     border-radius: 50px;
     border: 1px solid var(--acent);
     display: block;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn:hover,
 .btn:focus {
     color: var(--bkr-txt-dark);
     background-color: #dec451df;
+    box-shadow: 0px 3px 9px var(--text-par);
 }
 .text-title {
     color: var(--bkr-txt-dark);
@@ -245,7 +243,7 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: left;
+    text-align: center;
 }
 
 .main-section {
@@ -257,21 +255,17 @@ img {
 
 .list-main-encourage {
     display: flex;
-    align-items: center;
     gap: 24px;
-    justify-content: space-between;
+    justify-content: center;
+    --items: 4;
+    --ident-vertical: 124px;
 }
 
 .pouring {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 112px;
-    border-radius: 8px;
-    margin-bottom: 8px;
-    width: 176px;
-    /* background-color: transparent;
-    border: 2px solid var(--bkr-txt-dark); */
+    margin-bottom: 24px;
 }
 
 .enc-img {
@@ -293,13 +287,12 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    
 }
 
-/* .encourage-item {
-    --items: 4;
-    --ident-vertical: 24px;
-
-} */
+.enc-icons {
+    fill: var(--bkr-txt-dark);
+} 
 
 /* Best sellers */
 
@@ -320,17 +313,26 @@ img {
 .cards-bst {
     background-color: var(--bkr-txt-dark);
     text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    /* border-radius: 4px; */
+    transition: 1s;
+}
 
+.cards-bst:hover,
+.cards-bst:focus {
+    transform: scale(1.1);
+    z-index: 2;
+    /* box-shadow: 3px 9px 9px 2px var(--text-par); */
 }
 
 .card-style-bst {
     padding: 16px 8px;
     border-top: none;
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 2px 1px 0px var(--text-par);
+    border-radius: 4px;
+    /* box-shadow: 0px 3px 9px var(--text-par); */
 }
 
-/* Creams */
+/* Types of cake */
 .text-par {
     color: var(--text-par2);
     /* color: var(--grey); */
@@ -358,14 +360,22 @@ img {
 .card-style {
     padding: 16px 8px;
     border-top: none;
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 2px 1px 0px var(--bkr-txt-dark);
+    /* border-radius: 0px 0px 4px 4px; */
 }
 
 .cards {
     background-color: var(--acent);
     text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    transition: 1s;
     
+}
+
+.cards:hover,
+.cards:focus {
+    transform: scale(1.1);
+    z-index: 2;
 }
 
 .center {
@@ -373,7 +383,7 @@ img {
 }
 /* Sweet nuts page */
 
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -384,7 +394,7 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
+} */
 
 /* Footer */
 
@@ -454,17 +464,20 @@ footer {
 
 .netw-link {
     display: flex;
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
     background-color: var(--acent);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    transition: 0.6s;
 }
 
 .netw-link:hover,
 .netw-link:focus {
     background-color: #dec451df;
+    transform: translate(0, -10px);
 }
 
 .logo-netw {
